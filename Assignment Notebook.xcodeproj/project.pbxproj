@@ -13,6 +13,8 @@
 		D9B6EB3326B1C49A00F2BA23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B6EB3226B1C49A00F2BA23 /* Preview Assets.xcassets */; };
 		D9B6EB3E26B1C49A00F2BA23 /* Assignment_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EB3D26B1C49A00F2BA23 /* Assignment_NotebookTests.swift */; };
 		D9B6EB4926B1C49A00F2BA23 /* Assignment_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EB4826B1C49A00F2BA23 /* Assignment_NotebookUITests.swift */; };
+		D9B6EC7026BC804100F2BA23 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EC6F26BC804100F2BA23 /* AssignmentList.swift */; };
+		D9B6EC7226BC804D00F2BA23 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EC7126BC804D00F2BA23 /* AddAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D9B6EB4426B1C49A00F2BA23 /* Assignment NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B6EB4826B1C49A00F2BA23 /* Assignment_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITests.swift; sourceTree = "<group>"; };
 		D9B6EB4A26B1C49A00F2BA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B6EC6F26BC804100F2BA23 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		D9B6EC7126BC804D00F2BA23 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				D9B6EB2B26B1C49800F2BA23 /* Assignment_NotebookApp.swift */,
 				D9B6EB2D26B1C49800F2BA23 /* ContentView.swift */,
+				D9B6EC7126BC804D00F2BA23 /* AddAssignmentView.swift */,
+				D9B6EC6F26BC804100F2BA23 /* AssignmentList.swift */,
 				D9B6EB2F26B1C49A00F2BA23 /* Assets.xcassets */,
 				D9B6EB3426B1C49A00F2BA23 /* Info.plist */,
 				D9B6EB3126B1C49A00F2BA23 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B6EC7026BC804100F2BA23 /* AssignmentList.swift in Sources */,
 				D9B6EB2E26B1C49800F2BA23 /* ContentView.swift in Sources */,
 				D9B6EB2C26B1C49800F2BA23 /* Assignment_NotebookApp.swift in Sources */,
+				D9B6EC7226BC804D00F2BA23 /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
